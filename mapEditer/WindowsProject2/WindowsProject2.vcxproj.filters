@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="managers">
+      <UniqueIdentifier>{5b6b07e2-a5ac-4582-b8f9-23896920d96a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{45bb75bb-9751-43a8-89a6-098c350a2c4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{0e76a969-7b2c-45f5-8657-5efff4494a97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mainWindow">
+      <UniqueIdentifier>{6099d68d-cdb5-4ec4-9b25-03fc063c0698}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils\Load">
+      <UniqueIdentifier>{8e3de386-653e-4bac-878b-7c5978f27427}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="objects">
+      <UniqueIdentifier>{0c613d81-68b8-465a-9def-206b72e71278}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils\MyVector2">
+      <UniqueIdentifier>{2dcb3eb7-e13f-410a-9054-ff1567835bca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils\MyFunc">
+      <UniqueIdentifier>{e1cc7aa3-39f2-4c69-989b-1066f41aa7d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="objects\cButton">
+      <UniqueIdentifier>{00fe6b5c-edd5-4ea0-9785-44562b440629}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowsProject2.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="cImageManager.h">
+      <Filter>managers</Filter>
+    </ClInclude>
+    <ClInclude Include="cSceneManager.h">
+      <Filter>managers</Filter>
+    </ClInclude>
+    <ClInclude Include="cTimer.h">
+      <Filter>managers</Filter>
+    </ClInclude>
+    <ClInclude Include="cTxtManager.h">
+      <Filter>managers</Filter>
+    </ClInclude>
+    <ClInclude Include="mainGame.h">
+      <Filter>mainWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="MyDevice.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="singleton.h">
+      <Filter>managers</Filter>
+    </ClInclude>
+    <ClInclude Include="cScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="mainScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="cSoundManager.h">
+      <Filter>managers</Filter>
+    </ClInclude>
+    <ClInclude Include="cKeyManager.h">
+      <Filter>managers</Filter>
+    </ClInclude>
+    <ClInclude Include="sLoadData.h">
+      <Filter>Utils\Load</Filter>
+    </ClInclude>
+    <ClInclude Include="sLoadImage.h">
+      <Filter>Utils\Load</Filter>
+    </ClInclude>
+    <ClInclude Include="sLoadSound.h">
+      <Filter>Utils\Load</Filter>
+    </ClInclude>
+    <ClInclude Include="cLoadHelper.h">
+      <Filter>managers</Filter>
+    </ClInclude>
+    <ClInclude Include="selectScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="cMapObject.h">
+      <Filter>objects</Filter>
+    </ClInclude>
+    <ClInclude Include="introScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="collider.h">
+      <Filter>objects</Filter>
+    </ClInclude>
+    <ClInclude Include="MyVector2.h">
+      <Filter>Utils\MyVector2</Filter>
+    </ClInclude>
+    <ClInclude Include="cRandManager.h">
+      <Filter>managers</Filter>
+    </ClInclude>
+    <ClInclude Include="cMapData.h">
+      <Filter>objects</Filter>
+    </ClInclude>
+    <ClInclude Include="mainWindow.h">
+      <Filter>mainWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="MyFunc.h">
+      <Filter>Utils\MyFunc</Filter>
+    </ClInclude>
+    <ClInclude Include="cButton.h">
+      <Filter>objects\cButton</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowsProject2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="cImageManager.cpp">
+      <Filter>managers</Filter>
+    </ClCompile>
+    <ClCompile Include="cSceneManager.cpp">
+      <Filter>managers</Filter>
+    </ClCompile>
+    <ClCompile Include="cTimer.cpp">
+      <Filter>managers</Filter>
+    </ClCompile>
+    <ClCompile Include="mainGame.cpp">
+      <Filter>mainWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="MyDevice.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="mainWindow.cpp">
+      <Filter>mainWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="cScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="mainScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="cSoundManager.cpp">
+      <Filter>managers</Filter>
+    </ClCompile>
+    <ClCompile Include="cKeyManager.cpp">
+      <Filter>managers</Filter>
+    </ClCompile>
+    <ClCompile Include="sLoadImage.cpp">
+      <Filter>Utils\Load</Filter>
+    </ClCompile>
+    <ClCompile Include="sLoadSound.cpp">
+      <Filter>Utils\Load</Filter>
+    </ClCompile>
+    <ClCompile Include="cLoadHelper.cpp">
+      <Filter>managers</Filter>
+    </ClCompile>
+    <ClCompile Include="selectScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="cMapObject.cpp">
+      <Filter>objects</Filter>
+    </ClCompile>
+    <ClCompile Include="cTxtManager.cpp">
+      <Filter>managers</Filter>
+    </ClCompile>
+    <ClCompile Include="introScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="collider.cpp">
+      <Filter>objects</Filter>
+    </ClCompile>
+    <ClCompile Include="MyVector2.cpp">
+      <Filter>Utils\MyVector2</Filter>
+    </ClCompile>
+    <ClCompile Include="cRandManager.cpp">
+      <Filter>managers</Filter>
+    </ClCompile>
+    <ClCompile Include="cMapData.cpp">
+      <Filter>objects</Filter>
+    </ClCompile>
+    <ClCompile Include="MyFunc.cpp">
+      <Filter>Utils\MyFunc</Filter>
+    </ClCompile>
+    <ClCompile Include="cButton.cpp">
+      <Filter>objects\cButton</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="WindowsProject2.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="WindowsProject2.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
