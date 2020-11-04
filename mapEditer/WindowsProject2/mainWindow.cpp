@@ -143,7 +143,7 @@ void mainWindow::Destory()
 	cSceneManager::ReleaseInstace();
 	cKeyManager::ReleaseInstace();
 	cLoadHelper::ReleaseInstace();
-	cSoundManager::ReleaseInstace();
+	//cSoundManager::ReleaseInstace();
 	cImageManager::ReleaseInstace();
 	cTxtManager::ReleaseInstace();
 

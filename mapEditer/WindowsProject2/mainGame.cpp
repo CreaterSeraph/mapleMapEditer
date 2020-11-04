@@ -40,7 +40,7 @@ void mainGame::Release()
 void mainGame::Update()
 {
 	KEYMANAGER->Update();
-	SOUNDMANAGER->Update();
+	//SOUNDMANAGER->Update();
 	SCENEMANAGER->Update();
 
 	LOADMANAGER->Update();

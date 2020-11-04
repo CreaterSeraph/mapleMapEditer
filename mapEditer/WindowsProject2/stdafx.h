@@ -18,11 +18,13 @@
 #include <tchar.h>
 #include <assert.h>
 
+//이곳에서 빌드 에러가 날시 VS설치시에 MFC를 포함해서 설치해야함.(vs2019이상부터)
+//https://developercommunity.visualstudio.com/content/problem/536782/vs-2019-does-not-find.html
 #include <afxwin.h>//CDC를 포함
 //#include <afxext.h>
 //#include <afxcoll.h>
 //#include <atlimage.h>//CImage를 포함
-//시발 넌 무조건 여기있어야해 개샘ㄴ이라ㅓㅁㄴ아ㅓㅍ ㅍㅈㅇㄹ니ㅏ러ㅏㅈㅁ이ㅏㄴㄹ
+//넌 무조건 여기있어야해 개샘ㄴ이라ㅓㅁㄴ아ㅓㅍ ㅍㅈㅇㄹ니ㅏ러ㅏㅈㅁ이ㅏㄴㄹ
 
 // 다이렉트X사용에 필요한 라이브러리와 헤더파일을 링크합니다.
 #include "C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/Include/d3d9.h"
@@ -134,7 +136,7 @@ extern POINT				ptMouse;
 // 사용할 매니저 클래스들의 목록입니다
 #include "cTxtManager.h"
 #include "cTimer.h"
-#include "cSoundManager.h"
+//#include "cSoundManager.h"
 #include "cSceneManager.h"
 #include "cImageManager.h"
 #include "cLoadHelper.h"

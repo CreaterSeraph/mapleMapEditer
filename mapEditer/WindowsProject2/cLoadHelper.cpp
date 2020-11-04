@@ -2,7 +2,7 @@
 #include "cLoadHelper.h"
 
 #include "sLoadImage.h"
-#include "sLoadSound.h"
+//#include "sLoadSound.h"
 
 cFileLoader::cFileLoader()
 	:willLoadFileCount(0), willLoadFileSize(0), fileSize(0), loadedFileSize(0), fileCount(0), loadedFileCount(0), nowLoading(false)
@@ -64,10 +64,10 @@ void cFileLoader::EndLoad()
 	{
 		IMAGEMANAGER->FailedLoad(iter);
 	}
-	for (auto iter : vFailed[LK_SOUND])
-	{
-		SOUNDMANAGER->FailedLoad(iter);
-	}
+	//for (auto iter : vFailed[LK_SOUND])
+	//{
+	//	SOUNDMANAGER->FailedLoad(iter);
+	//}
 	for (auto& iter : vLoadList)
 	{
 		SAFE_DELETE(iter);
@@ -168,16 +168,16 @@ bool cLoadHelper::AddCenterImage(const string& key, const tstring& path)
 
 bool cLoadHelper::AddSound(const string& key, const tstring& path, const SOUND_KIND& kind, float volume)
 {
-	auto temp = new sLoadSound(key, path, kind, volume);
-	if (temp->fileSize != 0)
-	{
-		if (SOUNDMANAGER->AddSound(temp->key, temp->soundPtr))
-		{
-			vLoadList.push_back(temp);
-			return true;
-		}
-	}
-	delete temp;
+	//auto temp = new sLoadSound(key, path, kind, volume);
+	//if (temp->fileSize != 0)
+	//{
+	//	if (SOUNDMANAGER->AddSound(temp->key, temp->soundPtr))
+	//	{
+	//		vLoadList.push_back(temp);
+	//		return true;
+	//	}
+	//}
+	//delete temp;
 	return false;
 }
 
